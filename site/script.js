@@ -1,0 +1,1 @@
+console.log("Static site loaded via CI/CD pipeline!");
