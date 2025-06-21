@@ -1,10 +1,22 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+    color: #444;
     text-align: center;
-    padding-top: 50px;
+    padding: 60px 20px;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
 }
 
 h1 {
-    color: #333;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #222e3c;
+    margin-bottom: 20px;
+    letter-spacing: 1.2px;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
