@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/your-user/ci-cd-static-site.git'
+                git 'https://github.com/ayouboul21/projet_aws.git'
             }
         }
 
