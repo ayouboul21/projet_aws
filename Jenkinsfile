@@ -23,7 +23,7 @@ pipeline {
                 sh '''
                     docker run -d -p 8080:80 --name test-container my-static-site
                     sleep 5
-                    curl -f http://localhost:8080 || (echo "Test failed" && exit 1)
+                    curl -f http://localhost:8080 || (echo "Test failed try again later" && exit 1)
                     docker rm -f test-container
                 '''
             }
