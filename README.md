@@ -18,12 +18,13 @@ The repository contains the following key files and directories:
 - `Dockerfile`: Instructions for building the Docker image of the application.
 - `Jenkinsfile`: Pipeline script for Jenkins to automate the build and deployment process.
 - `site/`: Directory containing the website's source code.
+- `docs/`: Directory containing some screenshots to visualize the expected outcome of the commands.
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-- Docker installed on your local machine.
+- Docker installed and running on your local machine.
 - Jenkins set up with the necessary plugins for building and deploying Docker images.
 - AWS account with appropriate permissions for deploying resources.
 
