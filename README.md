@@ -23,7 +23,7 @@ The repository contains the following key files and directories:
 
 ### Prerequisites
 
-- Docker installed on your local machine.
+- Docker installed and running on your local machine.
 - Jenkins set up with the necessary plugins for building and deploying Docker images.
 - AWS account with appropriate permissions for deploying resources.
 
